@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 01</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="form-wrapper">
+        <div class="form-group">
+            <label for="full_name">Họ tên: </label>
+            <input type="text" id="full_name" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label for="count">Số từ trong chuỗi: </label>
+            <input type="text" id="count" class="form-control" readonly />
+        </div>
+
+        <div class="form-group">
+            <label for="first_name">Lời chào: </label>
+            <input type="text" id="sayhi" class="form-control" readonly />
+        </div>
+        <div class="form-group">
+            <label for="cap_name">Viết hoa nguyên âm: </label>
+            <input type="text" id="cap_name" class="form-control" readonly />
+        </div>
+
+        <div class="form-group">
+            <button class="btn btn-primary" onclick="actionName()">
+                Thực hiện
+            </button>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

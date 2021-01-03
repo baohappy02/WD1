@@ -1,0 +1,26 @@
+body {
+    background-color: #8470FF;
+    font-family: sans-serif;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 600px;
+    height: 600px;
+    margin: 160px 40px 40px 600px;
+}
+
+tbody {
+    background-color: white;
+}
+
+.cl1 {
+    background-color: violet;
+    font-size: larger;
+    font-style: bolder;
+}
+
+td {
+    width: auto;
+    text-indent: 10%;

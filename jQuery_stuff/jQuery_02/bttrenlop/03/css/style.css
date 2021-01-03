@@ -1,0 +1,39 @@
+.container {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+
+.panel .panel-title {
+    background-color: #eeeeee;
+    padding: 6px 12px;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.panel:first-child .panel-title {
+    border-radius: 4px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.panel .panel-content {
+    padding: 6px 12px;
+    border: 1px solid #dddddd;
+    display: none;
+}
+
+.panel:last-child .panel-content {
+    border-radius: 4px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.panel.none .panel-content {
+    display: none;
+}
+
+.panel.active .panel-content {
+    display: block;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 02</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="form-wrapper">
+        <div class="form-group">
+            <label for="numbers">Nhập dãy số</label>
+            <input type="text" id="numbers" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label for="max">Số nhỏ nhất</label>
+            <input type="text" id="min" class="form-control" readonly />
+        </div>
+
+        <div class="form-group">
+            <label for="avg_integer">Trung bình cộng các số dương</label>
+            <input type="text" id="avg_integer" class="form-control" readonly />
+        </div>
+
+        <div class="form-group">
+            <label for="old_number">Số âm đầu tiên</label>
+            <input type="text" id="old_number" class="form-control" readonly />
+        </div>
+
+        <div class="form-group">
+            <label for="old_max">Sắp xếp tăng dần</label>
+            <input type="text" id="old_max" class="form-control" readonly />
+        </div>
+
+        <div class="form-group">
+            <button class="btn btn-primary" onclick="actionName()">
+                Thực hiện
+            </button>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

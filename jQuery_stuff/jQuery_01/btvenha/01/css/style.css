@@ -1,0 +1,46 @@
+.box {
+    background-color:lightskyblue ;
+    width: auto;
+    height: 927px;
+    padding: 20px;
+    text-indent: 0px;
+    font-family: sans-serif;
+    margin: 0px auto;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.tabs {
+    padding-left: 0px;
+    list-style-type: none;
+  }
+  
+.a {
+  margin-right: 20px;
+  display: inline-block;
+  padding: 6px 12px;
+  border: 1px solid wheat;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.yellow {
+  margin-right: 20px;
+  display: inline-block;
+  padding: 6px 12px;
+  border: 1px solid wheat;
+  border-radius: 5px;
+  background-color: yellow;
+}
+  
+  .tab-list {
+    margin-left: 4px;
+    margin-top: 15px;
+    border: 1px solid yellow;
+    border-radius: 15px;
+  }
+  
+  .tab-list > div {
+    padding: 6px 12px;
+    display: none;
+  }

@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    background: ;
+}
+
+.home {
+    background-color: lightskyblue;
+    display: block;
+    max-width: 100%;
+    height: 11px;
+    padding: 20px;
+    line-height: 11px;
+    text-indent: 5%;
+}
+
+.title {
+    font-size: 200%;
+    display: block;
+
+}
+
+.box {
+
+    display: block;
+}
+
+span.work1 {
+    display: inline-block;
+    width: 600px;
+    float: left;
+}
+
+span.work2 {
+    float: left;
+    display: inline-block;
+    margin: 110px;
+}
+
+.small {
+    font-size: small;
+}
+
+.big {
+    font-size: 145%;
+}
+
+.mid {
+    font-size: 130%;
+}
+
+.color1 {
+    background-color: lightgray;
+}

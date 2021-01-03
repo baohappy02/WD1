@@ -1,0 +1,43 @@
+
+.run {
+  display: none;
+}
+
+button {
+  width: max-content;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 9px;
+}
+
+input {
+  margin-top: 10px;
+  text-indent: -10px;
+  padding: 0px;
+  border: none;
+  font-size: 18px;
+}
+
+.p {
+  text-indent: 10px;
+}
+
+.btn2 {
+  float: right;
+}
+
+.run {
+  height: 168px;
+  width: 500px;
+  position: relative;
+  border: 2px solid lightgray;
+}
+
+.closeX {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+}

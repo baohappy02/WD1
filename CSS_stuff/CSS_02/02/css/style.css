@@ -1,0 +1,16 @@
+body {
+    font-family: sans-serif;
+}
+td.td1 {
+    color: blue;
+}
+table {
+    margin: 40px;
+}
+.box {
+    margin: 40px;
+}
+img {
+    width: 300px;
+    height: 400px;
+}

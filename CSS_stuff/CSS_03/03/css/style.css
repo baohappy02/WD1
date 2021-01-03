@@ -1,0 +1,11 @@
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 20px;
+    /* color: rgba(red, green, blue, alpha); */
+}

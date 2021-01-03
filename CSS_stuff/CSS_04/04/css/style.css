@@ -1,0 +1,46 @@
+body {
+    background-color: lightgray;
+    max-width: 1000px;
+    max-height: 600px;
+}
+
+.full {
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    padding: 20px 20px;
+    margin: 200px 200px 200px 700px;
+}
+
+.submit {
+    background-color: lightseagreen;
+    float: right;
+    margin: 20px 30px;
+}
+
+.check {
+    margin: 22px 0px;
+}
+
+#id {
+    width: 220px;
+    height: 20px;
+}
+
+#pw {
+    width: 220px;
+    height: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.box2 {
+    background-color: lightgray;
+    width: 250px;
+    height: 250px;
+    padding: 20px 20px;
+    margin: 50px 200px 200px 730px;
+}

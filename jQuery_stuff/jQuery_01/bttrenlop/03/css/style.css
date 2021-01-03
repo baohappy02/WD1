@@ -1,0 +1,29 @@
+body {
+    background-color: lightseagreen;
+    border-radius: 5px;
+}
+
+.box {
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.tabs {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.tabs li {
+    display: inline-block;
+    padding: 6px 12px;
+    border: 1px solid #dddddd;
+}
+
+.tab-list {
+    border: 1px solid #dddddd;
+}
+
+.tab-list>div {
+    padding: 6px 12px;
+    display: none;
+}

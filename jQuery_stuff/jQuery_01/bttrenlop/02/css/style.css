@@ -1,0 +1,37 @@
+.box {
+    background-color:lightskyblue ;
+    width: 420px;
+    padding: 20px;
+    text-indent: 0px;
+    font-family: sans-serif;
+    margin: 20px auto;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+ol li {
+    margin: 15px;
+  }
+  
+.group button {
+    /* outline: none; */
+    background-color: hsl(204, 70%, 53%);
+    border-color: transparent;
+    color: #ffffff;
+    padding: 6px 12px;
+    width: 190px;
+    margin-top: 10px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+ 
+.group {
+    margin-bottom: 15px;
+  }
+  

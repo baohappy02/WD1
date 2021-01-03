@@ -1,0 +1,51 @@
+.box {
+  background-color: lightskyblue;
+  width: auto;
+  height: 927px;
+  padding: 20px;
+  text-indent: 0px;
+  font-family: sans-serif;
+  margin: 0px auto;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.tabs {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.btn {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+  display: inline-block;
+  padding: 11px 5px 0px 5px;
+  border: 1px solid wheat;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.yellow_active {
+  width: 30px;
+  height: 30px;
+  padding: 11px 5px 0px 5px;
+  border-radius: 50%;
+  color: white;
+  margin-right: 20px;
+  display: inline-block;
+  border: 1px solid wheat;
+  background-color: yellow;
+}
+
+.tab-list {
+  margin-left: 4px;
+  margin-top: 15px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.tab-list>div {
+  padding: 6px 12px;
+  display: none;
+}

@@ -1,0 +1,26 @@
+table {
+    width: 1000px;
+    border: 1px solid #000000;
+    text-align: center;
+    max-width: 700px;
+    border-collapse: collapse;
+}
+body {
+    font-size: 16px;
+    color: #e1e1e1; 
+}
+td:nth-child(even)
+{
+    background-color: green;
+    color: white;
+}
+tr:hover {
+    background: #dddddd;
+    color: white;
+}
+
+tr:hover td{
+    background: #dddddd;
+    color: white;
+}
+

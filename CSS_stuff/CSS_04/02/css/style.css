@@ -1,0 +1,20 @@
+span.box1 {
+    display: inline-block;
+    width: 850px;
+}
+
+span.playlist {
+    display: inline-block;
+    float: right;
+}
+
+ul.ul {
+    list-style: none;
+    overflow: auto;
+}
+
+a {
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+}

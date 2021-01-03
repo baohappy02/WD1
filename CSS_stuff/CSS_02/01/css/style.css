@@ -1,0 +1,70 @@
+body {
+    background-color: rgba(63, 20, 20, 0.993);
+    font-size: 20px;
+    font-family: sans-serif;
+    max-width: 1500px;
+}
+span.name {
+    display: inline-block;
+    width: 500px;
+    height: 100px;
+    padding: 20px;
+    color: wheat;
+  }
+
+.companyname {
+    display: block;
+    width: 1200px;
+}
+p.cpn {
+    float: left;
+    margin: 70px -15px;
+    font-size: 50px;
+    color:wheat;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+li {
+    text-decoration: none;
+}
+table {
+    background-color: rgb(107, 36, 36);
+    width: 1500px;
+    border: 0px solid rgba(63, 20, 20, 0.993);
+    border-collapse: collapse;
+}
+td.td6 {
+    width: 830px;
+}
+tbody {
+    text-indent: 12%;
+}
+tr {
+    height: 50px;
+}
+.empty {
+    width: 1500px;
+    color:rgba(63, 20, 20, 0.993) ;
+    height: 300px;
+}
+.anh {
+    background-image: url(../images/asd.jpg);
+    background-repeat: repeat-x;
+}
+.about {
+    background-color:  rgb(107, 36, 36);
+    
+}
+hr {
+    border: 1px dotted wheat;
+}
+.aboutre {
+    font-size: 30px;
+}
+p.para {
+    font-size: 17px;
+}
+a.more {
+    text-decoration: none;
+    color: yellowgreen;
+}

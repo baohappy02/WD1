@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 04 - Có hướng dẫn</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="form-wrapper">
+        <h2>Phương trình bậc 2</h2>
+        <hr />
+        <div class="form-group">
+            <label for="number_n">Số cần tính</label>
+            <input type="text" id="number_n" name="number_n" />
+        </div>
+        <div class="box-flex">
+            <button onclick="tinhGiaithua()">Tính giai thừa</button>
+            <div class="result" id="phan_tu_0"></div>
+        </div>
+        <div class="box-flex">
+            <button onclick="tinhSoChan()">Tính số chẵn</button>
+            <div class="result"></div>
+        </div>
+        <div class="box-flex">
+            <button onclick="tinhSole()">Tính tổng từ 1 -> n</button>
+            <div class="result"></div>
+        </div>
+        <div class="box-flex">
+            <button onclick="tinhSoChinhPhuong()">
+                N có phải là số chính phương?
+            </button>
+            <div class="result"></div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
